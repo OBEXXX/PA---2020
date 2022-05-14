@@ -1,0 +1,14 @@
+package jogo.logica.estados;
+
+public enum Situation {
+    CARREGA_JOGO,
+    ESCOLHE_MODO,
+    ESPERA_JOGADA,
+    ESPERA_JOGADA_ALEATORIA,
+    ESPERA_UNDO,
+    JOGA_CONTAS,
+    JOGA_PALAVRAS,
+    REGISTA_NOMES,
+    SELECIONA_OPCAO,
+    TERMINA_PROGRAMA
+}
